@@ -1,0 +1,30 @@
+.slider {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+
+    opacity: 0;
+    transform: scale(80%);
+    transition: 2s;
+}
+.slider-zoom {
+    opacity: 1;
+    transform: scale(100%);
+    transition: 2s;
+}
+.slider_content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+.slider_title {
+    text-align: center;
+    color: #fff
+}
+.slider_subtitle {
+    color: #fff
+}
